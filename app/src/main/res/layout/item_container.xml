@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/_20sdp"
+    app:cardElevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_marginHorizontal="@dimen/_16sdp"
+    android:layout_marginVertical="@dimen/_8sdp"
+    app:cardBackgroundColor="@color/colorBackgroundContainer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp"
+        android:layout_margin="@dimen/_8sdp"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Checkbox"
+            android:buttonTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/this_is_the_sample_task"
+            android:paddingStart="@dimen/_8sdp"
+            tools:ignore="RtlSymmetry"
+            android:textColor="@color/white"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

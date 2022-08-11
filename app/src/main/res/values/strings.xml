@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ToDo</string>
+    <string name="todo">ToDo</string>
+    <string name="do_not_postpone_today_s_work_to_tomorrow">Did it</string>
+    <string name="no_more_home_work">No more home work</string>
+    <string name="title_todo">Title ToDo</string>
+    <string name="make_it_finy">make it finy</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="great_new_task">Great New Task</string>
+    <string name="add_title">Add Title</string>
+    <string name="what_you_do">What You Do?</string>
+    <string name="description">Description</string>
+    <string name="how">How?</string>
+    <string name="date">Date</string>
+    <string name="when">When?</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="this_is_the_sample_task">This is the sample Task</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
+    <string name="do_it">Do it</string>
+    <string name="set_date">Set Date</string>
+</resources>
